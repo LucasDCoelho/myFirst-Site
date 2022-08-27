@@ -1,0 +1,463 @@
+*{
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+    color: #837E9F;
+}
+
+body{
+    background-color: #22212C;
+    position: relative;
+    width: 1440px;
+    height: 1900px;
+}
+
+footer{
+    margin-top: auto;
+    position: relative;
+    top: 8em;
+    right: 35em;
+}
+
+.iconFooter{
+    height: 1em;
+    width: 1em;
+}
+
+.container{
+    display:flex;
+}
+
+
+
+aside{
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+main{
+
+    display: flex;
+    flex: 2;
+    min-height: 100vh;
+}
+
+.myProject{
+    position: absolute;
+    width: 910px;
+    height: 86px;
+    left: 448px;
+    top: 40px;
+
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.titleAndButton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 1.5rem;
+    gap: 40rem;
+
+}
+
+/* Start Post Project 1 */
+
+.project1{
+    position: absolute;
+    width: 441px;
+    height: 186px;
+    left: 448px;
+    top: 157px;
+
+    margin-left: 3rem;
+
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.headerProject{
+    top: 20px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    text-align: right;
+    right: 40px;
+}
+
+p.textProject1{
+    position: relative;
+    top:.5em;
+}
+
+h4.titleProject1{
+    position: relative;
+    top: .2em;
+    right: 115px;
+}
+
+.footerProject{
+
+    display: flex;
+    position: relative;
+    top: 100px;
+    right: 15px;
+
+}
+
+p.textProjectfooter{
+    position: relative;
+    top: .1em;
+    right: 70px;
+}
+
+/* End Post Project 1 */
+
+/* Start Post Project 2 */
+
+.project2{
+    position: absolute;
+    width: 441px;
+    height: 186px;
+    left: 919px;
+    top: 157px;
+
+    margin-left: 3rem;
+    
+
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.headerProject2{
+    top: 20px;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    text-align: right;
+    left: 20px;
+}
+
+p.textProject2{
+    position: relative;
+    top: 2em;
+    right: 12.8em;
+}
+
+h4.titleProject2{
+    position: relative;
+    top: .2em;
+    right: 5px;
+}
+
+.footerProject2{
+
+    display: flex;
+    position: relative;
+    top: 120px;
+    right: 5px;
+
+}
+
+p.textProjectfooter2{
+    position: relative;
+    top: .2em;
+    right: 70px;
+}
+
+/* End Post Project 2 */
+
+/* Start Recent Posts */
+
+.recentPosts{
+    position: absolute;
+    width: 910px;
+    height: 86px;
+    left: 448px;
+    top: 373px;
+
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.titleRecentsPosts{
+    position: absolute;
+width: 1000px;
+height: 260px;
+left: 20px;
+top: 28px;
+/* identical to box height */
+
+
+color: #837E9F;
+
+}
+
+/* End Recent Posts */
+
+/* Start Posts */
+
+.post{
+    position: absolute;
+    width: 910px;
+    height: 201px;
+    left: 448px;
+    top: 489px;
+
+    margin-left: 3rem;
+    margin-right: 3rem;
+
+    background: #302F3D;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.imagePost{
+    background-image: url(325174d7-4b94-4eb3-9fc4-16815c01dbf2.jpg);
+    height: 8em;
+    width: 8em;
+    border-radius: 8em;
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+}
+
+.headerPost{
+    position: relative;
+    left: 12em;
+    bottom: 5.7em;
+}
+
+/* End Posts */
+
+/* Start Profile */
+
+    .profileBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+
+    .textProfile{
+
+        font-weight: lighter;
+
+    }
+
+    .nameProfile{
+        margin-top: 1.5rem;
+        margin-bottom: .5rem;
+        font-weight: bold;
+    }
+
+    .imageProfile{
+        margin-top: 2rem;
+        width: 8em;
+        height: 8em;
+        border: 2px solid #00FF00;
+        border-radius: 8em;
+
+        background-image: url(325174d7-4b94-4eb3-9fc4-16815c01dbf2.jpg);
+        background-size: contain;
+    }
+
+    .profileBox
+    .container-profile{
+        position: relative;
+        width: 348px;
+        height: 292px;
+        right: 50px;
+        top: 40px;
+
+        background: #302F3D;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+    }
+
+/* End Profile */
+
+/* Start Links */
+
+    .linksBox{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .iconLinks {
+        position: relative;
+        right: 6rem;
+        top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .textLink{
+        display: flex;
+        position: relative;
+        left: 7rem;
+        top: .6rem;
+    }
+
+    .linksBox
+    .container-link{
+        position: relative;
+        width: 348px;
+        height: 348px;
+        right: 50px;
+        top: 40px;
+
+        background: #302F3D;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+    }
+
+/* End Links */
+
+/* Start Techs */
+
+    .techsBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titleTech{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .itemTech{
+        position: relative;
+        color: black;
+        font-weight: bold;
+        background-color: #CB92B1;
+        border-radius: 60px;
+        font-size: smaller;
+        flex: 0 32%;
+        margin-bottom: 4%;
+        top: 25px;
+        right: 20px;
+    }
+
+    .listTech{
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        text-align: center;
+        gap: 2%;
+
+    }
+
+    .techsBox
+    .container-tech{
+        position: relative;
+        width: 348px;
+        height: 208px;
+        right: 50px;
+        top: 40px;
+
+        background: #302F3D;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+    }
+
+/* End Techs */
+
+/* Start Experience */
+
+    .experienceBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titleExper{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .itemExper{
+        margin-bottom: 8px;
+        font-size: medium;
+    }
+
+    .listExper{
+        margin-left: 25px;
+        margin-top: 15px;
+    }
+
+
+    .experienceBox
+    .container-exper{
+        position: relative;
+        width: 348px;
+        height: 350px;
+        right: 50px;
+        top: 40px;
+
+        background: #302F3D;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+    }
+
+/* End Experience */
+
+/* Start Education */
+
+    .educationBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titleEducation{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .itemEducation {
+        margin-top: 15px
+    }
+
+    .listEducation{
+        margin-left: 25px;
+        margin-top: 15px;
+    }
+
+    .strongTxt{
+        font-weight: 100;
+    }
+
+
+    .educationBox
+    .container-education{
+        position: relative;
+        width: 348px;
+        height: 400px;
+        right: 50px;
+        top: 40px;
+
+        background: #302F3D;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 20px;
+    }
+
+/* End Education */
